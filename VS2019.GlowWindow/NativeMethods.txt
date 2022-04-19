@@ -1,0 +1,8 @@
+﻿SetWindowPos
+DwmExtendFrameIntoClientArea
+SendMessage
+ReleaseCapture
+
+WM_NCCALCSIZE
+WM_NCLBUTTONDOWN
+HTCAPTION
