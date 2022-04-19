@@ -80,7 +80,7 @@ namespace VS2019.GlowWindow.Data
         {
             if (_transparencyMasks[(int) bitmapPart] == null)
             {
-                var bitmapImage = new BitmapImage(new Uri($"pack://application:,,,/VS2019.GlowWindow;Component/Resources/Images/GlowWindow/{bitmapPart}.png"));
+                var bitmapImage = new BitmapImage(new Uri($"pack://application:,,,/VS2019.GlowWindow;component/Resources/Images/GlowWindow/{bitmapPart}.png"));
 
                 var array = new byte[BytesPerPixelBgra32 * bitmapImage.PixelWidth * bitmapImage.PixelHeight];
                 var stride = BytesPerPixelBgra32 * bitmapImage.PixelWidth;
